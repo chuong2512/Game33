@@ -13,9 +13,14 @@ public class IAPKey
     public const string PACK1 = "xep_hop_goi_1";
     public const string PACK2 = "xep_hop_goi_2";
     public const string PACK3 = "xep_hop_goi_3";
-    public const string PACK4 = "xep_hop_goi_4";
+    /// <summary>
+    /// 
+    /// </summary>
+    public const string PACK4 = "xep_hop_goi_4";/// <summary>
+                                                /// 
+                                                /// </summary>
     public const string PACK5 = "xep_hop_goi_5";
-    public const string PACK6 = "xep_hop_goi_6";
+    public const string PACK6 = "xep_hop_goi_6";///
 }
 
 /// <summary>

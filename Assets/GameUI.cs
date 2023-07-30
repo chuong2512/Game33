@@ -70,6 +70,9 @@ public class GameUI : Singleton<GameUI>
             GameDataManager.Instance.playerData.SubHelp(1);
 
             Lose.SetActive(false);
+            Rotater.Instance.ShowObj();
+
+            GameUI.Instance.SetState(State.Playing);
         }
     }
 

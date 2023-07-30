@@ -23,19 +23,19 @@ public class PurchasingManager : MonoBehaviour
 
             case 2:
                 IAPManager.OnPurchaseSuccess = () =>
-                    GameDataManager.Instance.playerData.AddDiamond(10);
+                    GameDataManager.Instance.playerData.AddDiamond(10 + 5);
                 IAPManager.Instance.BuyProductID(IAPKey.PACK2);
                 break;
 
 
             case 3:
                 IAPManager.OnPurchaseSuccess = () =>
-                    GameDataManager.Instance.playerData.AddDiamond(15);
+                    GameDataManager.Instance.playerData.AddDiamond(15 + 8);
                 IAPManager.Instance.BuyProductID(IAPKey.PACK3);
                 break;
             case 4:
                 IAPManager.OnPurchaseSuccess = () =>
-                    GameDataManager.Instance.playerData.AddDiamond(20);
+                    GameDataManager.Instance.playerData.AddDiamond(20 + 10);
                 IAPManager.Instance.BuyProductID(IAPKey.PACK4);
                 break;
             ///
@@ -44,14 +44,14 @@ public class PurchasingManager : MonoBehaviour
             ///
             case 5:
                 IAPManager.OnPurchaseSuccess = () =>
-                    GameDataManager.Instance.playerData.AddDiamond(50);
+                    GameDataManager.Instance.playerData.AddDiamond(50 + 25);
                 IAPManager.Instance.BuyProductID(IAPKey.PACK5);
                 break;
 
 
             case 6:
                 IAPManager.OnPurchaseSuccess = () =>
-                    GameDataManager.Instance.playerData.AddDiamond(100);
+                    GameDataManager.Instance.playerData.AddDiamond(100 + 50);
                 IAPManager.Instance.BuyProductID(IAPKey.PACK6);
                 break;
         }
